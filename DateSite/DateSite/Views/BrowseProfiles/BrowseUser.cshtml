@@ -1,0 +1,59 @@
+﻿@model DateSite.Models.ProfileModel
+@{
+    ViewBag.Title = "BrowseUser";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    @Styles.Render("~/Content/BrowseUsersStyle.css");
+
+    bool session;
+    if (Session["UserID"] != null)
+    {
+        session = true;
+    }
+    else
+    {
+        session = false;
+    }
+
+
+}
+
+<head>
+    <script src="~/scripts/jquery-1.10.2.js"></script>
+    <script>
+        $(document).ready(function () {
+            @if (Session["UserID"] != null) { 
+                @:alert("true");
+                }
+            else {
+                @:alert("false");
+            }
+        });
+    </script>
+</head>
+
+
+<div class="content-wrapper">
+    
+    <div class="container">
+        <div class="row row-offset">
+            <div class="col-md-12">
+                <div class="profilebox col-md-4" style="background-image: url(../../Content/ProfileImages/@Model.pic); background-size: 100% 100%;"></div>
+                <div class="col-md-8">
+                    <p>Name: @Model.name</p>
+                    <p>Age: @Model.age</p>
+                    <p>Email: @Model.email</p>
+                    <p>About me: @Model.about</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-2"></div>
+            <input class="comment-box" type="text" placeholder="Enter your comment..." />
+            <input type="submit" value="Send" />
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+
+    </div>

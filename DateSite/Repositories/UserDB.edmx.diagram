@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="fab8a1d6844f45e7b2b3876ab1caa986" Name="Diagram1">
+        <EntityTypeShape EntityType="UserDBModel.Intrests" Width="1.5" PointX="0.75" PointY="2.75" />
+        <EntityTypeShape EntityType="UserDBModel.Profiles" Width="1.5" PointX="3" PointY="1.5" />
+        <EntityTypeShape EntityType="UserDBModel.SECURITY" Width="1.5" PointX="5.25" PointY="4" />
+        <EntityTypeShape EntityType="UserDBModel.WALLPOST" Width="1.5" PointX="5.25" PointY="1.125" />
+        <AssociationConnector Association="UserDBModel.FK__SECURITY__PID__4222D4EF" />
+        <AssociationConnector Association="UserDBModel.FK__WALLPOST__FID__412EB0B6" />
+        <AssociationConnector Association="UserDBModel.FK__WALLPOST__PID__403A8C7D" />
+        <AssociationConnector Association="UserDBModel.FRIENDSWITH" />
+        <AssociationConnector Association="UserDBModel.HAVINGINTREST" />
+        <AssociationConnector Association="UserDBModel.REQUESTEDFRIEND" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

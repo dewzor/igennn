@@ -1,0 +1,30 @@
+TODO!!!:
+
+Vänner (visa vänförfrågningar) (kontaklista) (EJ KLARRRRRRRRR)
+Två språk (EJ KLAR)
+Göra inlägg på andras väggar (EJ KLAR)
+_MÅSTE_ ha APICONTROLLER
+Validera ALL inMATNING
+Undantagshantering med medelanden!!
+
+Databasen ska skapas KLAR
+Login (KLAR)
+Logout (KLAR)
+Registera (NÄSTAN KLAR)
+Registera (KLAR)
+Redigera profil (klar)
+Browsefunktion (KLAR)
+Validering(SEMIKLAR)
+Dölja profil (KLAR)
+
+
+
+
+Känner att jag bygger och skickar runt profiles på stenåldersvis.
+
+Vi bode göra en klass som håller i profiles som man kan skicka runt.
+Och en metod som bygger profile efter IDt som man skickar in och returnar den.
+
+Samma med wallposts, borde ha ett object som heter wallpost som innehåller posten, mottagare och sändare och datumtid.
+
+Lätta saker men har totalt hjärnsläpp och kan inte komma på hur/vart man skall bygga detta. wTF!!!!
